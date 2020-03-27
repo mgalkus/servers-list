@@ -1,3 +1,13 @@
+### Server list app with login and list sorting
+
+Built with React, Redux, thunk, SCSS.
+
+Live version [here](https://github.com/facebook/create-react-app) (❗️enable insecure content in browser, as API call is made to http). 
+
+
+
+-----
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
