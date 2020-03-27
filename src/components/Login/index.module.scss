@@ -1,0 +1,56 @@
+@import "../../styles/variables";
+
+.login {
+  width: 300px;
+  margin: 0 auto;
+
+  .title {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .usernameContainer {
+    margin-bottom: 20px;
+  }
+
+  .label {
+    margin-right: 5px;
+  }
+
+  .input {
+    padding: 5px;
+    border: 1px solid $grey;
+    margin-bottom: 5px;
+  }
+
+  .reminder {
+    display: inline-block;
+    color: $grey-dark;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .button {
+    margin-top: 30px;
+  }
+
+  .error {
+    color: $red;
+    font-size: 12px;
+  }
+
+  .serverError {
+    color: $red;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

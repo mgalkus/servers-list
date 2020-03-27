@@ -1,0 +1,40 @@
+@import "../../styles/variables";
+
+.list {
+  .title {
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  }
+
+  .logoutButton {
+    margin-left: auto;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .attributesContainer,
+  .item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .attributesContainer {
+    margin-bottom: 20px;
+  }
+
+  .item {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid $grey;
+    }
+  }
+}

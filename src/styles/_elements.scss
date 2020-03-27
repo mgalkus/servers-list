@@ -1,0 +1,53 @@
+.body,
+.title {
+  font-family: "Roboto", sans-serif;
+  color: $dark;
+}
+
+.container {
+  min-height: 300px;
+  padding: 20px;
+  margin: 20px auto auto;
+
+  @media screen and (max-height: 414px) {
+    margin: 0 auto;
+    min-height: unset;
+  }
+
+  @media screen and (min-width: 768px) {
+    min-height: 300px;
+    max-width: 600px;
+    padding: 40px;
+    margin: 100px auto 50px auto;
+    border-radius: 2px;
+    box-shadow: 0 10px 20px $box-shadow-light, 0 6px 6px $box-shadow-dark;
+  }
+}
+
+.button {
+  padding: 10px 40px;
+  background: $grey;
+  color: $dark;
+  border-radius: 20px;
+  font-size: 18px;
+  border: none;
+
+  &:hover,
+  &:active {
+    cursor: pointer;
+    background-color: $blue;
+    color: $white;
+  }
+
+  &--sort {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+  &--logout {
+    &:hover,
+    &:active {
+      background-color: $red;
+      color: $white;
+    }
+  }
+}
