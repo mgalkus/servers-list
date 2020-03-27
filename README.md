@@ -2,7 +2,7 @@
 
 Built with React, Redux, thunk, SCSS.
 
-Live version [here](https://github.com/facebook/create-react-app) (❗️enable insecure content in browser, as API call is made to http). 
+Live version [here](https://github.com/facebook/create-react-app) (❗️enable insecure content in browser, as API call is made to http. Here's [how](https://docs.adobe.com/content/help/en/target/using/experiences/vec/troubleshoot-composer/mixed-content.html)). 
 
 
 
